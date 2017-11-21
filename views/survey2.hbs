@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+
+</head>
+
+<body>
+    <form method="post" action="/survey2">
+            {{#if both}}
+            <div class="container">
+            <div class="row-fluid">
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath1}}/1.png">
+                      <input type="checkbox" name="person" value="1">
+                </div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath1}}/2.png">
+                <input type="checkbox" name="person" value="2"> </div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath1}}/3.png">
+                <input type="checkbox" name="person" value="3"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath1}}/4.png">
+                <input type="checkbox" name="person" value="4"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath1}}/5.png">
+                <input type="checkbox" name="person" value="5"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath1}}/6.png">
+                <input type="checkbox" name="person" value="6"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath1}}/7.png">
+                <input type="checkbox" name="person" value="7"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath1}}/8.png">
+                <input type="checkbox" name="person" value="8"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath1}}/9.png">
+                <input type="checkbox" name="person" value="9"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath1}}/10.png">
+                <input type="checkbox" name="person" value="10"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath1}}/11.png">
+                <input type="checkbox" name="person" value="11"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath1}}/12.png">
+                <input type="checkbox" name="person" value="12"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath1}}/13.png">
+                <input type="checkbox" name="person" value="13"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath1}}/14.png">
+                <input type="checkbox" name="person" value="14"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath1}}/15.png">
+                <input type="checkbox" name="person" value="15"></div>
+
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath2}}/1.png">
+                <input type="checkbox" name="person" value="16"> </div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath2}}/2.png">
+                <input type="checkbox" name="person" value="17"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath2}}/3.png">
+                <input type="checkbox" name="person" value="18"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath2}}/4.png">
+                <input type="checkbox" name="person" value="19"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath2}}/5.png">
+                <input type="checkbox" name="person" value="20"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath2}}/6.png">
+                <input type="checkbox" name="person" value="21"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath2}}/7.png">
+                <input type="checkbox" name="person" value="22"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath2}}/8.png">
+                <input type="checkbox" name="person" value="23"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath2}}/9.png">
+                <input type="checkbox" name="person" value="24"> </div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath2}}/10.png">
+                <input type="checkbox" name="person" value="25"> </div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath2}}/11.png">
+                <input type="checkbox" name="person" value="26"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath2}}/12.png">
+                <input type="checkbox" name="person" value="27"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath2}}/13.png">
+                <input type="checkbox" name="person" value="28"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath2}}/14.png">
+                <input type="checkbox" name="person" value="29"> </div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath2}}/15.png">
+                <input type="checkbox" name="person" value="30"></div>
+            </div>
+            </div>
+
+            <input type="hidden" name="picId" value="{{picId}}">
+            <input type="hidden" name="gender" value="{{gender}}">
+            <input type="hidden" name="interest" value="{{interest}}">
+
+            {{else}}
+
+            <div class="container">
+            <div class="row-fluid">
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath}}/1.png">
+                <input type="checkbox" name="person" value="1"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath}}/2.png">
+                <input type="checkbox" name="person" value="2"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath}}/3.png">
+                <input type="checkbox" name="person" value="3"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath}}/4.png">
+                <input type="checkbox" name="person" value="4"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath}}/5.png">
+                <input type="checkbox" name="person" value="5"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath}}/6.png">
+                <input type="checkbox" name="person" value="6"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath}}/7.png">
+                <input type="checkbox" name="person" value="7"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath}}/8.png">
+                <input type="checkbox" name="person" value="8"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath}}/9.png">
+                <input type="checkbox" name="person" value="9"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath}}/10.png">
+                <input type="checkbox" name="person" value="10"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath}}/11.png">
+                <input type="checkbox" name="person" value="11"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath}}/12.png">
+                <input type="checkbox" name="person" value="12"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath}}/13.png">
+                <input type="checkbox" name="person" value="13"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath}}/14.png">
+                <input type="checkbox" name="person" value="14"></div>
+                <div class="span4"> <img height="75%" width="50%" src="/images/{{imagePath}}/15.png">
+                <input type="checkbox" name="person" value="15"></div>
+
+                <input type="hidden" name="picId" value="{{picId}}">
+                <input type="hidden" name="gender" value="{{gender}}">
+                <input type="hidden" name="interest" value="{{interest}}">
+            </div>
+            </div>
+            {{/if}}
+
+            <div class="col-auto center">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+    </form>
+
+
+</body>
+</html>

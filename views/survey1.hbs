@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style>
+body {
+    padding: 80px;
+}
+</style>
+</head>
+
+<body>
+
+    <h3> Your Gender </h3>
+    <form method="post" action="/survey1">
+            Male: <input type="radio" name="gender" value="male" aria-label="..."> <br>
+            Female: <input type="radio" name="gender" value="female" aria-label="..."> <br>
+            Other: <input type="radio" name="gender"  value="other" aria-label="..."> <br>
+    <hr>
+    <h3> Interested In: </h3>
+            Male: <input type="radio" name="interest" value="male" aria-label="..."> <br>
+            Female: <input type="radio" name="interest" value="female" aria-label="..."> <br>
+            Both: <input type="radio" name="interest"  value="both" aria-label="..."> <br>
+            <hr>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+
+</body>
+</html>

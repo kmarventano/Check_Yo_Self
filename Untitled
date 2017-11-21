@@ -1,0 +1,10 @@
+
+let times = 0;
+
+for (let k = 0; k < 40; k++) {
+    times += Math.floor(Math.random() * 2) ? 1 : 0;
+
+
+}
+
+console.log(times);
